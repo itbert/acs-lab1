@@ -1,0 +1,5 @@
+{
+  "name": "AVS lab 1 Debian",
+  "image": "mcr.microsoft.com/devcontainers/base:debian",
+  "postCreateCommand": "sudo apt-get update && sudo apt-get install -y less locales && sudo locale-gen C.UTF-8"
+}
